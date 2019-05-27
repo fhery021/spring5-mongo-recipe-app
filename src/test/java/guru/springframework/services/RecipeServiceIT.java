@@ -23,6 +23,7 @@ import static org.junit.Assert.assertEquals;
 //@DataMongoTest
 @RunWith(SpringRunner.class)
 @SpringBootTest
+@Ignore
 public class RecipeServiceIT {
 
     public static final String NEW_DESCRIPTION = "New Description";
