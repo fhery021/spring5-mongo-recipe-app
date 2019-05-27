@@ -33,6 +33,11 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter-thymeleaf')
 	compile('org.springframework.boot:spring-boot-starter-web')
 	runtime('org.springframework.boot:spring-boot-devtools')
+	// https://mvnrepository.com/artifact/de.flapdoodle.embed/de.flapdoodle.embed.mongo
+	compile group: 'de.flapdoodle.embed', name: 'de.flapdoodle.embed.mongo', version: '1.35'
+	// https://mvnrepository.com/artifact/cz.jirutka.spring/embedmongo-spring
+	compile group: 'cz.jirutka.spring', name: 'embedmongo-spring', version: '1.1'
+	
 	compile 'org.webjars:bootstrap:3.3.7-1'
 	compileOnly('org.projectlombok:lombok')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
